@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html class="bg-gray-50">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="ALX Admissions Portal">
+<meta name="author" content="ALX">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/alx_apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/alx_icon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/alx_icon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="zHA6C4KT0azAwJre-jVbyrIj-W_oV5GvLpnS0XuNntB8qqAtY1wq0k3fo1gqGjtiqeMqOpiy5gGgJSxQPUGWDg" />
+
+
+<link rel="stylesheet" href="/assets/tailwind-66845ecc437c950f4e45c28f4313ed516017735e6da9b20f0f64964c6ce3679a.css" data-turbo-track="reload" />
+
+    <meta name="turbo-visit-control" content="reload">
+
+    <link rel="stylesheet" href="/assets/app-274334fc10f3f23b3fd1aae9d953d7eb38d87eb997ea8c0bc0b25857093a01cc.css" data-turbo-track="reload" />
+    <script src="/assets/app-bfe2dcdbd24a661b4c168b49892ff5b46dd8d8d4326e28d28d73695f534e1013.js" data-turbo-track="reload" defer="defer"></script>
+
+        <script>
+    window.dataLayer = window.dataLayer || [];
+      dataLayer.push({"userId":2479596,"user":{"id":2479596,"country":"KE","country_origin":"KE","gender":"Male","type":"user"},"visitorType":"user"});
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T6ZPCH9J');</script>
+  <!-- End Google Tag Manager -->
+
+        <!-- Pendo -->
+  <script>
+    (function(apiKey){
+      (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=o._q||[];
+      v=['initialize','identify','updateOptions','pageLoad','track'];for(w=0,x=v.length;w<x;++w)(function(m){
+        o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
+        y=e.createElement(n);y.async=!0;y.src='https://cdn.eu.pendo.io/agent/static/'+apiKey+'/pendo.js';
+        z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
+
+        pendo.initialize({"visitor":{"id":"anyashfrankly7@gmail.com","email":"anyashfrankly7@gmail.com","isApplicant":true,"isStaff":false,"id_nile":2479596,"country":"KE","countryOrig":"KE","gender":"Male"}});
+    })('d28b5a8c-23aa-4260-5d88-be1229a64045');
+  </script>
+  <!-- End Pendo -->
+
+
+    <title>Home - Admissions</title>
+
+      <script>
+        window.codySettings = { widget_id: "9b373aad-0a9a-49d0-9297-204ad69f4b0d" };
+        !function(){var t=window,e=document,a=function(){var t=e.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://trinketsofcody.com/cody-widget.js";var a=e.getElementsByTagName("script")[0];a.parentNode.insertBefore(t,a)};"complete"===document.readyState?a():t.attachEvent?t.attachEvent("onload",a):t.addEventListener("load",a,!1)}();
+      </script>
+  </head>
+
+  <body data-controller="gtm">
+      <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6ZPCH9J"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+    
+    
+<div class="min-h-full">
+  <div class="bg-white border-b border-slate-200">
+    <nav class="bg-white" data-controller="header-menu">
+      <div class="mx-auto sm:px-6 lg:px-8">
+        <div class="flex h-14 items-center justify-between px-4 sm:px-0">
+            <div class="flex items-center">
+              <div class="flex-shrink-0">
+                  <a href="/">
+                    <img alt="ALX logo" style="height: 46px;" src="/alx_icon-150x85.png" />
+</a>              </div>
+              <div class="hidden md:block">
+                <div class="ml-10 flex items-baseline space-x-4">
+                </div>
+              </div>
+            </div>
+
+            <div class="hidden md:block">
+              <div class="ml-4 flex items-center md:ml-6">
+                <span class="p-1 text-slate-400 text-right text-sm flex flex-col">
+                  <span class="font-medium text-slate-500">frankline amakoye</span>
+                  <span class="text-xs">anyashfrankly7@gmail.com</span>
+                </span>
+
+                <div class="relative ml-3 flex items-center">
+                  <div data-controller="dropdown" class="relative inline-block text-left">
+  <div>
+      <button
+        type="button"
+        class="relative flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+        data-action="dropdown#toggle click@window->dropdown#hide">
+        <span class="absolute -inset-1.5"></span>
+        <span class="sr-only">
+          Actions
+        </span>
+        <div alt="frankline amakoye" class="avatar_40_user_2479596 h-8 w-8 rounded-full" style="background: url(https://secure.gravatar.com/avatar/49ba05885931c6f424ce7dc9d0831a1c.png?s=40&amp;d=mp&amp;r=g) center / cover no-repeat; box-shadow: inset 0 0 0.5rem rgba(0,0,0, 0.25); display: inline-block; height: 40px; width: 40px"></div>
+      </button>
+  </div>
+
+  <div
+    class="hidden transition transform origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-50"
+    data-dropdown-target="menu"
+    data-transition-enter-from="opacity-0 scale-95"
+    data-transition-enter-to="opacity-100 scale-100"
+    data-transition-leave-from="opacity-100 scale-100"
+    data-transition-leave-to="opacity-0 scale-95"
+    role="menu"
+    aria-orientation="vertical"
+    tabindex="-1">
+    <div class="py-1">
+      
+        <a class="hover:bg-gray-100 hover:text-gray-900 block px-4 py-2 text-sm text-gray-700" data-action="dropdown#toggle" href="/settings/profile">                        <i aria-hidden="true" class="fa-solid fa-cog fa-fw"></i>
+                        Settings
+</a>
+                              <form class="button_to" method="post" action="/users/sign_out"><input type="hidden" name="_method" value="delete" autocomplete="off" /><button data-turbo="false" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" type="submit">
+                        <i aria-hidden="true" class="fa-solid fa-power-off fa-fw"></i>
+                        Sign out
+</button><input type="hidden" name="authenticity_token" value="L0krTMMDCCdPPlYEQ4DEO55wzRecRoPTZ7kCzhJ9xW0fwFLymhUubzLGhf1lTYsPJ5svNKgFrAZNZyclyR5v_A" autocomplete="off" /></form>
+    </div>
+  </div>
+</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="-mr-2 flex md:hidden">
+              <!-- Mobile menu button -->
+              <button type="button" class="relative inline-flex items-center justify-center rounded-md bg-gray-600 p-2 text-gray-200 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" data-action="click->header-menu#toggle_mobile">
+                <span class="absolute -inset-0.5"></span>
+                <span class="sr-only">Open main menu</span>
+                <!-- Menu open: "hidden", Menu closed: "block" -->
+                <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-header-menu-target="mobileMenuIconOpened">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <!-- Menu open: "block", Menu closed: "hidden" -->
+                <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-header-menu-target="mobileMenuIconClosed">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+        </div>
+      </div>
+
+      <!-- Mobile menu, show/hide based on menu state. -->
+      <div class="hidden md:hidden" data-header-menu-target="mobileMenu">
+        <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
+          <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+        </div>
+        <div class="border-t border-gray-700 pb-3 pt-4">
+          <div class="flex items-center px-5">
+            <div class="flex-shrink-0">
+              <div alt="frankline amakoye" class="avatar_48_user_2479596 h-10 w-10 rounded-full" style="background: url(https://secure.gravatar.com/avatar/49ba05885931c6f424ce7dc9d0831a1c.png?s=48&amp;d=mp&amp;r=g) center / cover no-repeat; box-shadow: inset 0 0 0.5rem rgba(0,0,0, 0.25); display: inline-block; height: 48px; width: 48px"></div>
+            </div>
+            <div class="ml-3">
+              <span class="p-1 text-slate-400 text-left text-sm flex flex-col">
+                <span class="font-medium text-slate-500">frankline amakoye</span>
+                <span class="text-xs">anyashfrankly7@gmail.com</span>
+              </span>
+            </div>
+          </div>
+          <div class="mt-3 space-y-1 px-2">
+              <a class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white" href="/settings/profile">
+                <i aria-hidden="true" class="fa-solid fa-cog fa-fw"></i>
+                Settings
+</a>
+            <form class="button_to" method="post" action="/users/sign_out"><input type="hidden" name="_method" value="delete" autocomplete="off" /><button data-turbo="false" class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white" type="submit">
+              <i aria-hidden="true" class="fa-solid fa-power-off fa-fw"></i>
+              Sign out
+</button><input type="hidden" name="authenticity_token" value="ZVub5ijnf3qK09tPpFMTDq9F3dVvIlfUKz2XdnzvxCFV0uJYcfFZMvcrCLaCnlw6Fq4_9ltheAEB47Kdp4xusA" autocomplete="off" /></form>          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+    
+
+    <main>
+      <div class="bg-repeat-x h-12 bg-contain" style="background-image: url(https://admissions.alxafrica.com/assets/alx_bkg_top_1-c03f631680357252cde4023cc3656433528ce33a432fdcdb0da6e0f919e6d341.jpg)">
+      </div>
+      <div class="container mx-auto p-4 sm:px-6 lg:px-8">
+          <div class="container">
+              <div class="container my-6">
+    <h1 class="mt-4 mb-2 text-3xl font-semibold text-slate-800">Select the program and the cohort you want to join</h1>
+    <p class="mt-2 mb-2 text-sm text-slate-600">If you already started an application, please make sure you finish it before the deadline!</p>
+    <div class="my-4 bg-sky-100 text-sky-900 p-5 rounded-lg border border-sky-300">
+      <h2 class="mb-4 text-sky-500 text-lg"><span class="text-lg rounded-full border-2 border-sky-500 mr-2"><i aria-hidden="true" class="fa-solid fa-info fa-fw"></i></span> <strong>Please note</strong>:</h2>
+      <ul class="text-sm list-disc pl-4">
+        <li>You can only have <strong>one active application</strong> at a time.</li>
+        <li>Your application status is final and cannot be altered.</li>
+        <li>If you wish to apply to a different program or cohort, you must first withdraw your current application.</li>
+      </ul>
+    </div>
+    <div class="flex flex-col mt-6">
+      <h2 class="text-lg font-semibold text-slate-800">Available Programs</h2>
+        <ul role="list" class="mt-4 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAwNTA5NCwicHVyIjoiYmxvYl9pZCJ9fQ==--35f371ade943f04952468f469106e9b9c8dbadb3/6_Pathway.png" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">Pathway</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">8 months</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAwNTA5NCwicHVyIjoiYmxvYl9pZCJ9fQ==--35f371ade943f04952468f469106e9b9c8dbadb3/6_Pathway.png" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">Pathway</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">8 months</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>Pathway is a career accelerator that provides you will future-fit skills and gives you access to our global university partners. You start with Pathway Foundations, an 8-month program, where you will learn essential leadership, entrepreneurial, and professional skills. Following the 8 months, you will have the opportunity to continue your learning with our global partner universities.&nbsp;</div><div><br></div><div>Through 8 months of Pathway Foundations:&nbsp;<br>- Acquire foundational skills in leadership, entrepreneurship, and professional development.<br>- Tap into our vast network of industry experts to receive career advice and accelerate your career trajectory.<br>- Gain access to our university partners to take your career to the next level.<br>- Access to scholarships thanks to our partners, like the Mastercard Foundation and the Patoranking Foundation.</div>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                01 Sep 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=129"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="AisTeDNGKA4ktjkfoElpRWc55cmfCARmErTSLMF_DwONfUOL_-MdfIpyJWqDzAIkoC-VF-SwXvp3jFYG2nlkIQ" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTgwOSwicHVyIjoiYmxvYl9pZCJ9fQ==--09767cf737b52a370c9719d317328e16b456a0de/card-AiCE.jpg" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">AiCE – AI Career Essentials</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">6 weeks</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTgwOSwicHVyIjoiYmxvYl9pZCJ9fQ==--09767cf737b52a370c9719d317328e16b456a0de/card-AiCE.jpg" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">AiCE – AI Career Essentials</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">6 weeks</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>Learn to leverage AI tools and specific professional skills essential for career success.</div><ul><li>- The value of interpersonal skills in the workplace.</li><li>- How to use AI tools in your work.</li><li>- The essential feature of entrepreneurship and how to build your own personal brand.</li></ul>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                02 Jun 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=121"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="1iXDMZai7UEM8BiI5fP9sdTiwGOebPFL59kkTMvZLLVZc5PCWgfYM6I0BP3GdpbQE_SwveXUq9eC4aBm0N9Hlw" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTM4MDQ2NCwicHVyIjoiYmxvYl9pZCJ9fQ==--1e99aa19e01a3a4ddcac561a25116a4d0b65fd30/Founder%20Academy%20-%202%20weeks%20online%20(2).png" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">Founder Academy - 2 weeks</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">2-week Intensive Bootcamp</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTM4MDQ2NCwicHVyIjoiYmxvYl9pZCJ9fQ==--1e99aa19e01a3a4ddcac561a25116a4d0b65fd30/Founder%20Academy%20-%202%20weeks%20online%20(2).png" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">Founder Academy - 2 weeks</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">2-week Intensive Bootcamp</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>This program is best suited for existing business founders, repeat founders or someone who is comfortable with business concepts. This is an online program so you can be located anywhere in the world.</div>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                07 Jul 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=125"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="aJNk87a6It_OYQHersvhG-HIYVmK9ChJLHnmmRSRhs7nxTQAeh8XrWClHauNTop6Jt4Rh_FMctVJQWKzD5ft7A" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI2MjA0MSwicHVyIjoiYmxvYl9pZCJ9fQ==--6c5422a443393888f935e5c0bfd096c4264b139a/Applied-AI-Cover.jpg" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">ALX AI Starter Kit</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">4 weeks</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI2MjA0MSwicHVyIjoiYmxvYl9pZCJ9fQ==--6c5422a443393888f935e5c0bfd096c4264b139a/Applied-AI-Cover.jpg" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">ALX AI Starter Kit</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">4 weeks</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>Through Hands-On Learning, You’ll Discover Tools That Can Help You:<br>- <strong>Streamline Your Studies</strong>: Summarize lesson notes into easy-to-read formats or podcasts you can listen to on the go.<br>- <strong>Plan and Launch Businesses</strong>: Generate business ideas, build business plans, identify risks, and create polished proposals.<br>- <strong>Supercharge Your Marketing</strong>: Learn to create video and graphic content, write captions, develop content plans, and review social media performance.<br>- <strong>Run a Small Business</strong>: Design menus, create recipes for a restaurant, or use tools to improve customer feedback systems.<br>- <strong>Teach Smarter</strong>: Build fun, interactive trivia games and teaching aids for students.<br>- <strong>Design Your Space</strong>: Visualize furniture layouts or simulate your ideal living room before making a purchase.<br>- <strong>Understand Medical Information</strong>: Learn how to use tools that help you build personalized diets or better understand medical reports.<br>- <strong>Analyze Feedback</strong>: Turn customer feedback into actionable insights to improve your business or projects.<br>- <strong>Automate Workflows</strong>: Use AI to prepare reports, collect data, and handle repetitive tasks faster and more accurately.</div><div><br>Whether it’s personal growth, professional development, or daily life, the skills you’ll learn are practical and impactful.</div>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                30 Jun 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=128"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="Q5u3Lo7Z0eNx_xqnjTtVNn4k4j2kg7g9oyxJ1NRFv7rMzefdQnzkkd87BtKuvj5XuTKS49874qHGFM3-z0PUmA" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTgxOCwicHVyIjoiYmxvYl9pZCJ9fQ==--86b99d81f79955124f43ad5d8f6a080b84c813d7/card-virtual-assistant-2.jpg" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">Virtual Assistant</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">8 weeks</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTgxOCwicHVyIjoiYmxvYl9pZCJ9fQ==--86b99d81f79955124f43ad5d8f6a080b84c813d7/card-virtual-assistant-2.jpg" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">Virtual Assistant</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">8 weeks</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>Gain the Skills to Become a Virtual Assistant</div><ul><li>- Practical tools &amp; skills training</li><li>- Career workshops and peer-to-peer learning</li><li>- Job-ready skills for real-world success</li></ul>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                30 Jun 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=127"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="W2hLsykW1daC7XFIeZgwkVmkpR86-VmgvFRsU6nF_lvUPhtA5bPgpCwpbT1aHVvwnrLVwUFBAzzZbOh5ssOVeQ" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTgxOSwicHVyIjoiYmxvYl9pZCJ9fQ==--049e24a073e1cdd03b1131940d7602d18f03948a/card-professional-foundations.jpg" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">Professional Foundations</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">3 months</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTgxOSwicHVyIjoiYmxvYl9pZCJ9fQ==--049e24a073e1cdd03b1131940d7602d18f03948a/card-professional-foundations.jpg" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">Professional Foundations</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">3 months</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>Learn Professional Skills to Boost Your Career.</div><ul><li>- Collaborate and learn with peers</li><li>- Professional development skills for the digital workplace</li><li>- Practical application of skills in real-world exercises</li></ul>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                30 Jun 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=107"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="wiotKZ-GduJgw5qQJVtQxEkJRgcGtzUqftqWemcVNulNfH3aUyNDkM4HhuUG3juljh822X0Pb7Yb4hJQfBNdyw" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTgzNSwicHVyIjoiYmxvYl9pZCJ9fQ==--d6df7aedb4451b342ba369e2ab7b7340d10919c6/img-cloud-computing.jpg" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">AWS Cloud Computing</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">10 Months</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTgzNSwicHVyIjoiYmxvYl9pZCJ9fQ==--d6df7aedb4451b342ba369e2ab7b7340d10919c6/img-cloud-computing.jpg" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">AWS Cloud Computing</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">10 Months</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>Businesses around the world use AWS to access computing power, storage, and databases.</div><ul><li>- Core AWS and cloud computing services, including: use cases, data security, and pricing models.</li><li>- How to navigate the creation and deployment of applications with AWS platforms.</li><li>- Manage and monitor cloud platforms.</li></ul>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                30 Jun 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=109"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="rZSWHxBTQQgpz-DdxUuzM2XYPGtfb20zqLN0QZ1Yg3ciwsbs3PZ0eocL_KjmzthSos5MtSTXN6_Ni_Brhl7oVQ" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTg0NSwicHVyIjoiYmxvYl9pZCJ9fQ==--9d7c665805e4e3305561589c313a3850b83a05b6/img-back-end-developer.jpg" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">Back-End Web Development</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">8 Months</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTg0NSwicHVyIjoiYmxvYl9pZCJ9fQ==--9d7c665805e4e3305561589c313a3850b83a05b6/img-back-end-developer.jpg" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">Back-End Web Development</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">8 Months</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>Become a back-end pro and build powerful apps from the ground up.</div><ul><li>- ALX Foundations leadership and soft skills training</li><li>- Real world experience with back-end languages like Python, Node.js, and Express.js</li><li>- How to build a basic, functional web application from scratch</li><li>- Skills that expand your career options</li></ul>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                30 Jun 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=111"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="uYXHm4uX8DmLWnylp0xlgsEXn4T86ntPrlsKT5rXC1U205doRzLFSyWeYNCEyQ7jBgHvWodSIdPLY45lgdFgdw" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTgzMiwicHVyIjoiYmxvYl9pZCJ9fQ==--7f0a384ccd71c96b7985598f887d9f3442b0f001/img-data-analytics.jpg" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">Data Analytics</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">8 months</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTgzMiwicHVyIjoiYmxvYl9pZCJ9fQ==--7f0a384ccd71c96b7985598f887d9f3442b0f001/img-data-analytics.jpg" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">Data Analytics</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">8 months</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>Learn to leverage AI tools and specific professional skills essential for career success.</div><ul><li>- The value of interpersonal skills in the workplace.</li><li>- How to use AI tools in your work.</li><li>- The essential feature of entrepreneurship and how to build your own personal brand.</li></ul>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                30 Jun 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=108"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="Eq4GX7yt9SVGLuUiFT7MD9-AIGgWgc0ACwjZAmbiYCyd-FascAjAV-jq-Vc2u6duGJZQtm05l5xuMF0ofeQLDg" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTgzMywicHVyIjoiYmxvYl9pZCJ9fQ==--34309d659fc181cf3917556f068ef2d222a3e610/img-data-analytics.jpg" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">Data Science</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">15 Months</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTgzMywicHVyIjoiYmxvYl9pZCJ9fQ==--34309d659fc181cf3917556f068ef2d222a3e610/img-data-analytics.jpg" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">Data Science</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">15 Months</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>Throughout the course, you will also learn database management with SQL, data visualisation with Power BI, and how to program with Python</div><ul><li>- Preparing Data</li><li>- Data Visualisation &amp; Storytelling</li><li>- Natural Language processing and classification</li></ul>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                30 Jun 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=113"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="Ona_g4ze0wVMq6YI71Q57EzzKZa4qGfH43CM84ezGcy1IO9wQHvmd-Jvun3M0VKNi-VZSMMQPVuGSAjZnLVy7g" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTgzNywicHVyIjoiYmxvYl9pZCJ9fQ==--c207fbb760cfce434dc73ede4b1811e4bc680a03/Rectangle-15769709.jpg" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">Front-End Web Development</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">8 Months</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTgzNywicHVyIjoiYmxvYl9pZCJ9fQ==--c207fbb760cfce434dc73ede4b1811e4bc680a03/Rectangle-15769709.jpg" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">Front-End Web Development</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">8 Months</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>Learn to code and level up your web development skills.</div><ul><li>- ALX Foundations leadership and soft skills training</li><li>- Learning to code in HTML, CSS, and Javascript</li><li>- Mastering responsive design, version control, and front-end frameworks</li><li>- Building a basic, functional web application from the ground up</li></ul>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                30 Jun 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=112"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="nAaNj6XSrRjUlpKaXJrk4yooKR9a4Shi-bgwQLU11ncTUN18aXeYanpSju9_H4-C7T5ZwSFZcv6cgLRqrjO9VQ" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+      <div class="flex justify-center mt-6">
+        <a target="_blank" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600" rel="noopener" href="https://ehub.alxafrica.com">Go to my eHub space</a>
+      </div>
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTgzNCwicHVyIjoiYmxvYl9pZCJ9fQ==--7ac49a957fdbb4ce59688e755702cf3f466e8d24/img-salesforce.jpg" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">Salesforce Administrator</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">9 Months</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE5OTgzNCwicHVyIjoiYmxvYl9pZCJ9fQ==--7ac49a957fdbb4ce59688e755702cf3f466e8d24/img-salesforce.jpg" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">Salesforce Administrator</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">9 Months</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>Become a Salesforce pro to take your career to the next level.</div><ul><li>- ALX Foundations leadership and soft skills training.</li><li>- How to manage customer data with Salesforce</li><li>- Salesforce Associate and Administrator certifications</li><li>- Real-world applications of Salesforce skills</li></ul>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                30 Jun 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=110"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="ZmFFTjDH9yMqReQMLeajc9fFRXMqmABzHDPUd8_4jHfpNxW9_GLCUYSB-HkOY8gSENM1rVEgWu95C1Bd1P7nVQ" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTIyMDM2OCwicHVyIjoiYmxvYl9pZCJ9fQ==--c0e48060a5662cadd5e84bef82c17cc802431fdf/software-developer-6521720_1280.jpg" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">ProDev Back-End Web Development</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">8 months</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTIyMDM2OCwicHVyIjoiYmxvYl9pZCJ9fQ==--c0e48060a5662cadd5e84bef82c17cc802431fdf/software-developer-6521720_1280.jpg" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">ProDev Back-End Web Development</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">8 months</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>This programme will set you on the path to becoming a specialist Back-End Developer, focused on building and maintaining the server-side architecture of web applications. In this programme you will acquire: <br><br>- Acquire professional, leadership, and entrepreneurial skills.&nbsp; <br>- Sophisticated Python techniques to write more efficient, maintainable code.<br>- To build high-performance, scalable back-end systems that can handle concurrent operations seamlessly.<strong><br>-</strong> Develop technical skills in Python, JavaScript, SQL, API development (REST &amp; GraphQL), microservices and DevOps tools such as Docker and Kubernetes.&nbsp;<br>- To apply these techniques directly to a real-world project.&nbsp;</div>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                30 Jun 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=115"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="sj_qGg4VSBSIikSsN4nCWGe_nzPr-4e9UsbyfbrKEek9abrpwrB9ZiZOWNkUDKk5oKnv7ZBD3SE3_nZXocx6yw" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTIyMDM2NywicHVyIjoiYmxvYl9pZCJ9fQ==--f1754341b62bfd3e5b56aeace78a3c82252efa88/ai-generated-8846760_1280.jpg" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">ProDev Front-End Web Development</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">8 months</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTIyMDM2NywicHVyIjoiYmxvYl9pZCJ9fQ==--f1754341b62bfd3e5b56aeace78a3c82252efa88/ai-generated-8846760_1280.jpg" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">ProDev Front-End Web Development</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">8 months</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>This programme will set you on the path to becoming a specialist Front-End Developer, focused on mastering the art of creating user-facing elements of websites and applications like a pro. In this programme you will:&nbsp;<br><br>- Acquire professional, leadership, and entrepreneurial skills.&nbsp;<br>- Master advanced front-end frameworks to create websites and develop mobile apps.<br>- Advanced front-end security and performance optimisation to protect against vulnerabilities.<br>- Develop technical skills in Advanced HTML, CSS, TypeScript, React, Next.js, React Native, and best security practices for robust application development.<br>- To apply these techniques directly to a real-world project.</div>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                30 Jun 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=114"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="L-3dCoLyW020TGM-eFJTAz1EWSqyAR3_dMR9xsDT_tegu435TlduPxqIf0tb1zhi-lIp9Mm5R2MR_Pns29WV9Q" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQxNzMxMCwicHVyIjoiYmxvYl9pZCJ9fQ==--bbc9bfae55964f9a5d4c1fd1a7cfc5d238d1fecf/AI-For-Creatives.jpg" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">AI for Creatives</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">8 months</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQxNzMxMCwicHVyIjoiYmxvYl9pZCJ9fQ==--bbc9bfae55964f9a5d4c1fd1a7cfc5d238d1fecf/AI-For-Creatives.jpg" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">AI for Creatives</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">8 months</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>This course explores how Generative AI enhances creative processes and streamlines content production across various creative domains. Learners gain hands-on experience applying a variety of AI tools to real-world creative workflows. Through practical projects, they develop confidence in AI-driven creativity while considering ethical implications and industry applications.</div>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                30 Jun 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=116"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="ItBOSRzbQN4KDe4ynalgLWqsdHQEghURHFJyaLZrbfathh660H51rKTJ8ke-LAtMrboEqn86T415avZCrW0G1A" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQxNzMxMiwicHVyIjoiYmxvYl9pZCJ9fQ==--a2d4ebe44841475d5e259b75323bc2ebfa9b56eb/Graphic-Design.jpg" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">Graphic Design</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">8 months</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQxNzMxMiwicHVyIjoiYmxvYl9pZCJ9fQ==--a2d4ebe44841475d5e259b75323bc2ebfa9b56eb/Graphic-Design.jpg" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">Graphic Design</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">8 months</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>This course combines universal design principles with Afrocentric creativity to develop visually compelling and culturally relevant designs. Learners explore the fundamentals of graphic design, branding, and storytelling while building a professional portfolios, refining their creative identity, and strengthen both technical and business skills.</div>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                30 Jun 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=117"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="Mx_U65jn35i9BMV7nbm0Qap2E33pkQgTmlfwVSYGk3u8SYQYVELq6hPA2Q6-PN8gbWBjo5IpUo__b3R_PQD4WQ" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQxNzMxNCwicHVyIjoiYmxvYl9pZCJ9fQ==--b54b306c04985e964ea72c0a256f8d85bab7112d/Music-Production.jpg" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">Music and Audio Production</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">8 months</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQxNzMxNCwicHVyIjoiYmxvYl9pZCJ9fQ==--b54b306c04985e964ea72c0a256f8d85bab7112d/Music-Production.jpg" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">Music and Audio Production</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">8 months</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>This course provides foundational training in audio production, from recording and sound design to mixing and mastering. Learners develop skills in composing, arranging, and refining music, creating high-quality audio for multimedia projects, and navigating key aspects of the music industry. Whether working in music, film, or digital media, they gain both technical and professional skills needed for success.</div>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                30 Jun 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=118"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="y44hW7kS_YvxxWKs0fFfo6wpKdt7uzzeZ3rOdjLIqPRE2HGodbfI-V8BftnydDTCaz9ZBQADZkICQkpcKc7D1g" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQxNzMxNiwicHVyIjoiYmxvYl9pZCJ9fQ==--14e8d22d9b2700fc36d38b861e92a398b418e818/Content-Creation.jpg" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">Content Creation</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">8 months</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQxNzMxNiwicHVyIjoiYmxvYl9pZCJ9fQ==--14e8d22d9b2700fc36d38b861e92a398b418e818/Content-Creation.jpg" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">Content Creation</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">8 months</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>This course focuses on developing the technical skills needed to create engaging, high-quality content. Learners gain hands-on experience in photography, videography, video editing, motion graphics, and audio production.</div>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                30 Jun 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=119"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="K2Dj5PL22pcriG8311S9jbsDagK6t-A0ETDh0vM3rPikNrMXPlPv5YVMc0L00dbsfBUa3MEPuqh0CGX46DHH2g" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTM4MDQ1MiwicHVyIjoiYmxvYl9pZCJ9fQ==--6b8193d354bdcb322c1769c999dbb568b4f6ee3b/Founder%20Academy%20-%206%20weeks%20online.png" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">Founder Academy - 6 weeks</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">6-week Bootcamp</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTM4MDQ1MiwicHVyIjoiYmxvYl9pZCJ9fQ==--6b8193d354bdcb322c1769c999dbb568b4f6ee3b/Founder%20Academy%20-%206%20weeks%20online.png" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">Founder Academy - 6 weeks</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">6-week Bootcamp</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>This program is best suited for aspiring founders who do not have an idea, founders who want to spend more time refining their startup, or those who would like to spend more time understanding business concepts. This is an online program so you can be located anywhere in the world.</div>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                14 Jul 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=123"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="uRjlc5IOl0usN6MtmBWy_noHdIVKMmfz-hrWopUEp0k2TrWAXquiOQLzv1i7kNmfvREEWzGKPW-fIlKIjgLMaw" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+<li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+  <div class="flex flex-1 flex-col">
+      <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTM4MDQ1OCwicHVyIjoiYmxvYl9pZCJ9fQ==--ee6341a28529ddc377f071a213ef3a1e6416a3ec/Founder%20Academy%20-%202%20weeks%20online%20(1).png" />
+    <h3 class="mx-4 mt-6 text-lg font-semibold text-slate-800">Freelancer Academy - 2 weeks</h3>
+      <p class="mx-4 mt-2 text-md text-slate-600">2-week Intensive Bootcamp</p>
+    <div class="h-10 pt-4">
+      <div data-controller="modal" data-action="keydown.esc->modal#close" tabindex="-1" class="relative ">
+        <a href="#" data-action="click->modal#open" class="text-blue-400 hover:text-blue-600">Learn more</a>
+        <!-- Modal Background -->
+        <div class="z-10 hidden fixed inset-0 bg-black bg-opacity-80 overflow-y-auto flex items-center justify-center" data-modal-target="background" data-action="click->modal#closeBackground">
+          <!-- Modal Container -->
+          <div class="max-h-screen w-full max-w-lg relative">
+            <!-- Modal Card -->
+            <div class="m-1 bg-white rounded-lg shadow">
+                <img class="w-100 flex-shrink-0 rounded-t-lg" src="https://admissions.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTM4MDQ1OCwicHVyIjoiYmxvYl9pZCJ9fQ==--ee6341a28529ddc377f071a213ef3a1e6416a3ec/Founder%20Academy%20-%202%20weeks%20online%20(1).png" />
+              <div class="p-4">
+                <div class="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button type="button" class="rounded-md bg-transparent text-gray-800 hover:text-gray-600" data-action="click->modal#close:prevent">
+                    <span class="sr-only">Close</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <h3 class="mt-6 text-lg font-semibold text-slate-800">Freelancer Academy - 2 weeks</h3>
+                  <p class="mx-4 mt-2 text-md text-slate-600">2-week Intensive Bootcamp</p>
+                <div class="my-3 mx-4 text-left">
+                  <div class="trix-content">
+  <div>This program was created for talented, skilled individuals who want to learn how to monetize their skills. This is an online program so you can be located anywhere in the world.</div>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-left p-4 text-sm">
+    <div class="text-md">Apply for the cohort starting:</div>
+    <ul role="list" class="divide-y divide-gray-100 rounded-lg border border-sky-100 px-4 my-3 py-1">
+          <li class="pb-2">
+            <div class="flex justify-between gap-x-6 pt-2">
+              <div class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                21 Jul 2025
+              </div>
+              <div class="flex">
+                  <form class="button_to" method="post" action="/apply?flow_id=124"><button data-turbo="false" class="rounded-full px-3 py-2 text-sm text-white shadow-sm bg-sky-400 hover:bg-sky-600 bg-blue-600 hover:bg-blue-500" type="submit">Apply</button><input type="hidden" name="authenticity_token" value="py0hi7J316pihxsd53aUeijPLLOQ66UWrOduILW9oUUoe3F4ftLi2MxDB2jE8_8b79lcbetT_4rJ3-oKrrvKZw" autocomplete="off" /></form>
+              </div>
+            </div>
+          </li>
+    </ul>
+
+  </div>
+</li>
+
+        </ul>
+    </div>
+  </div>
+
+          </div>
+
+        <footer class="container">
+  <hr class="mb-4 mt-5">
+  <div class="text-xs mb-4 text-gray-600">
+    Copyright &copy; 2025 Sand Technologies.
+    Privileged and confidential.
+    All rights reserved.
+  </div>
+</footer>
+
+      </div>
+    </main>
+
+    <div aria-live="assertive" class="pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6">
+  <div class="flex w-full flex-col items-center space-y-4 sm:items-end" id="toasts">
+    <div
+  data-controller="notification"
+  data-notification-delay-value="5000"
+  class="hidden transition transform ease-out duration-1000 pointer-events-auto w-full max-w-sm overflow-hidden rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5"
+  data-transition-enter-active="transform ease-out duration-300 transition"
+  data-transition-enter-from="translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2"
+  data-transition-enter-to="translate-y-0 opacity-100 sm:translate-x-0"
+  data-transition-leave-active="transition ease-in duration-100"
+  data-transition-leave-from="opacity-100"
+  data-transition-leave-to="opacity-0">
+  <div class="p-4">
+    <div class="flex items-start">
+      <div class="flex-shrink-0">
+        <span class="h-6 w-6 text-red-400"><i aria-hidden="true" class="fa-solid fa-circle-xmark fa-fw"></i></span>
+      </div>
+      <div class="ml-3 w-0 flex-1 pt-0.5">
+        <p class="text-sm font-medium text-gray-900">
+          You are already signed in.
+        </p>
+          <p class="mt-1 text-sm text-gray-500">
+            
+          </p>
+      </div>
+      <div class="ml-4 flex flex-shrink-0">
+        <button data-action="notification#hide" type="button" class="inline-flex rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+          <span class="sr-only">Close</span>
+          <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+  </div>
+</div>
+
+
+    <div class="fixed bottom-0 left-0 right-0 z-10" id="consent-banner">
+  <div class="bg-slate-200 text-slate-500 flex items-center justify-center gap-3 p-2 text-sm w-full">
+    <span>
+      By using this website, you agree to the website
+      <a rel="noopener noreferrer" target="_blank" class="link-primary" href="https://www.alxafrica.com/privacy-policy">privacy policy</a>
+      and the use of cookies.
+    </span>
+
+    <form class="button_to" method="post" action="/consent_to_cookies"><button class="btn-sm-secondary" data-action="click-&gt;gtm#push" data-gtm-event-param="acceptConcent" type="submit">Accept</button><input type="hidden" name="authenticity_token" value="D2zsl6guZp7O3ZgDVMaMoUOnoKCwLL87WOFsn14iw3d4r6yuLpF0QHf1EUsfdRTerFnmfLkXQ85zMfnkIN744A" autocomplete="off" /></form>
+  </div>
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,81 @@
+{
+   "checksum": "e68edf9682bd50c789eb2dfb39f966ba",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13375909427069027",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13376006133357958",
+            "date_last_used": "0",
+            "guid": "7f44677d-2670-4124-a4b5-e18de913e84e",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Bleecker Street",
+            "type": "url",
+            "url": "https://bleeckerstreetmedia.com/sign-up"
+         }, {
+            "date_added": "13376007611512039",
+            "date_last_used": "0",
+            "guid": "ba97a20d-fec3-4d9b-936b-4e7d1150d065",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Watch movies, series, animes online - Goojara.ch",
+            "type": "url",
+            "url": "https://www.goojara.to/"
+         }, {
+            "date_added": "13376287327649421",
+            "date_last_used": "0",
+            "guid": "860a25d6-7613-4350-b2eb-8cfea050b6b1",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "194.827 (-1.57%) @ PEPPERSTONEUK:GBPJPY",
+            "type": "url",
+            "url": "https://gocharting.com/terminal?ticker=PEPPERSTONEUK:GBPJPY"
+         }, {
+            "date_added": "13382980152559156",
+            "date_last_used": "0",
+            "guid": "3258a36c-99d4-49db-aaad-ae223a8746b0",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "milestone03_frankline_amakoye_02.02.2025.pdf - Google Docs",
+            "type": "url",
+            "url": "https://docs.google.com/document/d/1n1nZvndmMXxx6CN0l92xXfn6Kh1bHm-qw9mc5XOFJDk/edit?tab=t.0"
+         } ],
+         "date_added": "13375909427069038",
+         "date_last_used": "0",
+         "date_modified": "13382980152559156",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13375909427069076",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CmEKQQiIgQISOyAAkgE2CjQKDmNocm9tZV9zeW5jX2JtEgU1MSFibRoSCd8mZYcpLQYAEd8mZYcpLQYAKVJSZYcpLQYAEgAqGHNPdm9iOWNqNHRBbEJZWG01UXJRNFE9PUgDEuwBCAkS5wEKHDlTakYvcHg3eTZwalNjU3Z4b1lUMkdyUTlxST0SZlo6QURxdEFaeUZ0TVdtOWN0akdZaWNLSDMrV09QeDM3T2ZnNFZlUWtmMXFuQ3NVQ0xXRHI1cTFxSDhlWXdKWlh6UGROL1pTWUFLMCtoYVJZb3krb1JoZWFjMkNtOU1WREdUOXc9PRgAIAIoAjDj5ZjA4+OJAzihu5HBszJA1buRwbMyShx0bVNoWjNUNksyYm5PSCt3VllJbFQ5aXFKVkE9Wh8iHbZlWmlPK0RXRm5UTTRIU0kwM3pkQnRGSHRPMG89ZWn2UmcS7AEICxLnAQocajVVdzZXUjRKZ2Zjd083TXJZWWZxc0lWL0UwPRJmWjpBRHF0QVp5RnRNV205Y3RqR1lpY0tIMytXT1B4RkcvT012MkR5OWxHL2hBdFFrMG1OMURaQjF2R2hyTGlUNEIyM1YybWUxSDdKckFrZEp1NWFIWWtGeGZYODZPRHRKdG5PUT09GAAgAigCMP31/82ZpYsDOO+Jw7jMMkCeisO4zDJKHFBOTVd0Q21odEZpTk9venRVRDVGbGl3Q2Vwbz1aHyId23l2U1ZXajIyc3N5YjNVdXdpSW82MUJXbzQzYz1lOca2sBLrAQgHEuYBChxBaFBheTd4Wkl1QTI5ZkZXRzFKWDhTcnpkRjA9EmZaOkFEcXRBWnlGdE1XbTljdGpHWWljS0gzK1dPUHhLMUR2eUhwSmZMZXE4aHQzbHo3V0dlQmg4YmJnSEt5V0hwZHI2anJWSTd2NERUNFY5d1JVRTdXOHAvbk5UbGRPdW1DUEVRPT0YACACKAIw29Ss9vvZiQM4+Pjgu7IyQLT54LuyMkocdWRyZ0xFNU42dGxQWG9vckl2R3NhcUoxeWtzPVoeIhxtbGlPOWJHZU9XMnE2bTEwTmpMU2Jpei9mbU09Zag9JJsSwwEIAhK+AQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRJmWjpBRHF0QVp6MHlFSHl2M1NqT0ozcERIYUlGZXNLdmdzeTExd28wSktSUW1QNVdWRFVlem11Y1p1bGNmbnhjMlRUZmlBdkNoQkV6ZFYwbGFoNUdjNFhLaUUrckVoUWd1dkhMZz09GAAgACgAMPDdyb7CxIgDOABAAEocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAAS6wEIBRLmAQocUkliS2orME1lTUVTeXpiS0ZrRGZ0VXNtSHhRPRJmWjpBRHF0QVp5RnRNV205Y3RqR1lpY0tIMytXT1B4NDhSS1g4c3RTLzhDSythQ3hJSnNxNjE2djFCWDQvSVhPbFRjZndncUJTLzJoSXhhTnRNNVF3ajdXREtoZ0hwRXNnUlBYUT09GAAgAigCMOzXkbj22YkDOO7chruyMkCqiYe7sjJKHEtXVVE1RkRRRWhRSFdpc1BwNGMzWUhLT29HTT1aHiIcQVZsK2xPQmxaQzJnZW1hM0QraXE5U1lidXBRPWWICrGrEqsBCAESpgEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0STlo6QURxdEFaeW1wZTRNdUtSeEVsTi9YRG03TDR1Y3ZxZytsb05xWmsxTUFnQTZsRFhtTHZ3Um1LclVNT1FPZ0ttS3EreVpBcTg3VUR4aBgAIAAoADDw3cm+wsSIAzgAQABKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEsMBCAMSvgEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SZlo6QURxdEFaeGFST3lESzFKbzk4a0ZydGFoUnI5N01FQ2dZV0N1OWtIRCtSTGJCcHVjZnBnK0J1WmVpaGRuMkN6a29RajAzY0ZaMXo2ODlickNPcm5UcllCVk9IeE9LZklnOUE9PRgAIAAoADDw3cm+wsSIAzgAQABKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAMAE4AA==",
+   "version": 1
+}
